@@ -1,5 +1,6 @@
-# adp-contador
+# Contadores da Amaz
 
+```jsx
 <script>
   setTimeout(() => {
 
@@ -34,3 +35,4 @@ fetch("/api/plip-counter/", {
   });
 }, "1000")
 </script>
+```
