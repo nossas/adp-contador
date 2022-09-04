@@ -1,5 +1,5 @@
   setTimeout(() => {
-fetch("/api/plip-counter/", {
+fetch("https://virada.amazoniadepe.org.br/api/plip-counter/", {
   method: "GET",
   headers: {
     "Content-Type": "application/json",
