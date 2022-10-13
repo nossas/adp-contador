@@ -24,12 +24,12 @@ fetch("/api/plip-counter/", {
     document.querySelector(
 "#block-39884 > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1) > span:nth-child(1) > span:nth-child(1) > span:nth-child(1) > span:nth-child(1)"
     ).textContent = new Intl.NumberFormat().format(
-      confirmed_signatures
+      activists      
     );
     document.querySelector(
 "#block-39884 > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > span:nth-child(1) > span:nth-child(1) > span:nth-child(1) > span:nth-child(1) > span:nth-child(1)"
     ).textContent = new Intl.NumberFormat().format(
-      activists
+      confirmed_signatures
     );
   })
   .catch((error) => {
